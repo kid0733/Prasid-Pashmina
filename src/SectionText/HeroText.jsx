@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const HeroText = ({ backgroundText, foregroundText, subText }) => {
     return (
-        <div className="relative w-full h-[30vh] flex items-center justify-center">
+        <div className="relative h-[50vh] h-[30vh] flex items-center justify-center">
             {/* Background Text */}
             <div 
                 className="absolute inset-0 flex items-center justify-center"
@@ -17,7 +17,7 @@ const HeroText = ({ backgroundText, foregroundText, subText }) => {
             </div>
 
             {/* Foreground Text */}
-            <div className="relative text-center mx-auto px-4">
+            <div className="relative text-center mx-auto px-4 ]">
                 <h1 className="text-[6vh] md:text-[8vh] lg:text-[10vh] font-regular text-gray-800">{foregroundText}</h1>
                 <h2 className="text-lg md:text-2xl lg:text-[5vh] font-extralight text-gray-600 mt-2">{subText}</h2>
             </div>
